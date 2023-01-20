@@ -1,0 +1,16 @@
+// .section {
+//   padding: 20px;
+// }
+
+.flex-bottom {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+.flex-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

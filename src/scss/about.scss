@@ -1,0 +1,61 @@
+.about {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+
+  .container {
+    .row {
+      .left {
+        img {
+          width: 100%;
+        }
+      }
+
+      .right {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .head {
+          font-family: Roboto Mono, sans-serif;
+          font-size: 3em;
+          background: linear-gradient(
+            -45deg,
+            #a567a1,
+            #e47596,
+            #ff947e,
+            #ffc368
+          );
+          background-clip: text;
+          color: transparent;
+          margin: 0;
+        }
+
+        .content {
+          font-family: Roboto Mono, sans-serif;
+          font-weight: lighter;
+          font-size: 1.25rem;
+          color: white;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: $mobile) {
+    height: 100%;
+    .container {
+      padding: 20px 10px;
+      .row {
+        .right {
+          text-align: center;
+          .content {
+            font-size: 1rem;
+            line-height: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}

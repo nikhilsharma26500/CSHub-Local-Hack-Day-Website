@@ -1,0 +1,85 @@
+#teamp {
+  margin-top: 4%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.main-body{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgba($color: #a79e9e, $alpha: 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+.team-member {
+  font-family: Source Code Pro, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: filter 0.2s ease-in-out, transform 0.2s ease-in-out;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.team-member img {
+ margin-bottom: 1.4em;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgba(193, 210, 236, 0.13);
+  border-radius: 50%;
+  margin: 0 auto 1em auto;
+  transition: transform 0.3s ease-in-out;
+  padding: 0em;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  gap: 1em;
+  align-items: center;
+  
+  
+}
+
+.team-member .social-icons a:first-child svg {
+  color: white;
+  }
+  .team-member .social-icons a:last-child svg {
+  color: white;
+  }
+  
+  /* Add hover effect on img */
+  .team-member img:hover {
+  filter: brightness(80%);
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.5);
+
+  }
+  
+  .teamtitle {
+    font-family: Roboto Mono, sans-serif;
+    font-size: 4rem;
+    background: linear-gradient(-45deg, #a567a1, #e47596, #ff947e, #ffc368);
+    background-clip: text;
+    color: transparent;
+    margin: 0;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+
+/*.team-member {
+  width: 40%;
+  height: fit-content;
+  border-radius: 8%;
+  background-color: orange;
+}*/
+
+

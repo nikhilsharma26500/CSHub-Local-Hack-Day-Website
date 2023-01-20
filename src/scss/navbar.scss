@@ -1,0 +1,30 @@
+.navbar-custom {
+  
+  border: transparent;
+  .nav-link {
+    font-family: Rajdhani, sans-serif;
+    color: $base-color;
+    font-size: 1.3em;
+    text-transform: Uppercase;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: light;
+    &:hover {
+      color: rgba(239, 233, 233, 1);
+    }
+  }
+
+  .navbar-toggler-icon{
+    filter: invert(100%);
+  }
+
+}
+
+#navbar{
+  background-color: transparent;
+  backdrop-filter: none;
+  &.open {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12px);
+  }
+}

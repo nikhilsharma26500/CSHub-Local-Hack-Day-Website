@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  background: linear-gradient(-90deg, #150027, #352e4e); 
+  
+  text-align: center;
+  width: 99vw;
+  height: fit-content;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  .container{
+    padding: 0;
+    height: fit-content;
+
+  }
+
+  .text-footer{
+    padding: 2px;
+    margin-bottom: 2px;
+    color: #808080;
+  }
+
+  .p {
+    font-family: Roboto Mono, sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-top: 30px;
+  }
+
+  .span {
+    text-align: left;
+  }
+}
+

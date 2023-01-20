@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Outfit:wght@100&family=Roboto+Mono:wght@300;400;500;600&family=Rubik:wght@400;500;600&display=swap');
+
+@import './variables.scss';
+@import './common.scss';
+@import './navbar.scss';
+@import './hero.scss';
+@import './about.scss';
+@import './faq.scss';
+@import './sponsors.scss';
+@import './workshop.scss';
+@import './particles.scss';
+@import './footer.scss';
+
+html,
+#canvas1,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: $base-color !important;
+}

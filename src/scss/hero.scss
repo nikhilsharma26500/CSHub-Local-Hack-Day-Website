@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;600&family=Source+Code+Pro:wght@200;300;400;500;600&display=swap');
+
+.hero {
+  //   border: 1pt solid red;
+  overflow: hidden;
+  height: 100vh;
+  padding: 120px 0;
+
+  @media screen and (max-width: $mobile) {
+    padding: 50px 0;
+  }
+
+  .container {
+    // border: 1pt solid purple;
+    height: 100%;
+
+    .row {
+      //   border: 1pt solid red;
+      justify-content: center;
+    }
+
+    .mob-only {
+      .mob-venu {
+        padding: 10px 0 !important;
+        font-size: 1.6rem;
+        font-family: Source Code Pro, sans-serif;
+        font-weight: light;
+        text-align: left;
+
+        a {
+          color: #00d7bd;
+          font-family: Rubik;
+          font-weight: bold;
+          text-decoration: none;
+        }
+
+        br {
+          &:nth-child(1) {
+            display: none;
+          }
+
+          &:nth-child(2) {
+            display: block;
+          }
+        }
+        @media screen and (min-width: $laptop) {
+          display: none !important;
+        }
+        @media screen and (max-width: $mobile) {
+          display: block !important;
+        }
+      }
+      .mob-counter {
+        color: white;
+        text-align: center;
+        padding: 0;
+
+        ul {
+          font-family: Source Code Pro, sans-serif;
+          list-style-type: none;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: row;
+          padding: 0 5px;
+
+          li {
+            display: inline-block;
+            span {
+              display: block;
+              font-size: 2rem;
+              font-family: Rajdhani, sans-serif;
+            }
+          }
+        }
+
+        @media screen and (min-width: $laptop) {
+          display: none !important;
+        }
+        @media screen and (max-width: $mobile) {
+          display: block !important;
+        }
+      }
+    }
+
+    .club {
+      font-family: Rajdhani, sans-serif;
+      font-size: 3.2rem;
+      font-weight: bold;
+      color: white;
+    }
+
+    .venu {
+      font-size: 1.25rem;
+      font-family: Source Code Pro, sans-serif;
+      font-weight: light;
+      text-align: right;
+      color: white;
+
+      a {
+        color: #00d7bd;
+        font-family: Rubik;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      @media screen and (max-width: $tablet) {
+        display: none;
+      }
+    }
+
+    .main-title {
+      background: linear-gradient(-45deg, #a567a1, #e47596, #ff947e, #ffc368);
+      background-clip: text;
+      color: transparent;
+      font-size: 10rem;
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    .columnn {
+      //   border: 1pt solid green;
+      padding: 0 !important;
+    }
+
+    .counter {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      color: white;
+      text-align: center;
+      padding: 0;
+
+      @media screen and (max-width: $tablet) {
+        display: none;
+      }
+
+      ul {
+        font-family: Source Code Pro, sans-serif;
+
+        li {
+          span {
+            display: block;
+            font-size: 2rem;
+            font-family: Rajdhani, sans-serif;
+          }
+        }
+      }
+    }
+
+    .button-val{
+      color: white;
+      font-family: Source Code Pro, sans-serif;
+      margin-top: 10px;
+      padding: 1rem 3rem;
+      width: fit-content;
+      background-color: rgba($color: #ffffff, $alpha: 0.38);
+      backdrop-filter: blur(10px);
+      border: none;
+    }
+
+
+    @media screen and (max-width: $tablet) {
+      
+      .club {
+        font-size: 1.5rem;
+        text-align: center;
+      }s
+
+      .venu {
+        font-size: 1rem;
+        text-align: center;
+      }
+
+      .main-title {
+        font-size: 6rem;
+      }
+
+      .button-val{
+        padding: auto;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+      }
+
+      .counter {
+        ul {
+          li {
+            span {
+              font-size: 3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

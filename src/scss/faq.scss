@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@700&family=Quicksand&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Playfair+Display:wght@400;600;700&family=Poppins:wght@700&family=Quicksand&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Outfit:wght@100&family=Roboto+Mono:wght@300;400;500;600&family=Rubik:wght@400;500;600&display=swap');
+
+.accordion {
+  max-width: 50%;
+  font-family: Roboto Mono;
+
+  @media screen and (max-width: $mobile) {
+    min-width: 100% !important;
+  }
+}
+
+.blur {
+  background-color: rgba(193, 210, 236, 0.13);
+}
+
+#faq {
+  padding-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleName p {
+  font-family: Roboto Mono, sans-serif;
+  justify-content: center;
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 50px;
+  background: linear-gradient(-45deg, #a567a1, #e47596, #ff947e, #ffc368);
+  background-clip: text;
+  color: transparent;
+}
+
+.faq-title {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50%;
+}
+
+.accordion-header {
+  font-family: Roboto Mono, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.accordion-header span {
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+.accordion-header:hover span,
+.accordion-header:focus span {
+  color: white;
+}
+
+.accordion-header.active span {
+  color: white;
+}
+
+.accordion-header.active::before {
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+.accordion-header.active::after {
+  font-size: 10px;
+  margin-left: 10px;
+  float: right;
+}
+
+.accordion-content {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-style: Open Sans;
+  color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.accordion-header.active + .accordion-content {
+  max-height: 500px;
+}
+
+.accordion-content.open {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.plus {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.accordion-header.active .plus {
+  transform: rotate(45deg);
+}
