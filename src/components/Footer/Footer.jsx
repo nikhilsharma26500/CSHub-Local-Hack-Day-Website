@@ -10,11 +10,11 @@ const Footer = () => {
         <div className="container">
             <div className="row">
                 <div className="col-md">
-                <p className="text-footer">say hello @ <a href="mailto:cshub.localhackday@gmail.com" className="text-footer" >cshub.localhackday@gmail.com</a></p>
+                <p className="text-footer">say hello @ <a href="mailto:cshub.localhackday@gmail.com" className="text-footer" >cshub.localhack@gmail.com</a></p>
 
                 </div>
                 <div className="col-md-4">
-                    <a href="https://linkedin.com/in/username" className="text-footer"><SiDevpost className="mx-2" target="_blank"/></a>
+                    <a href="https://cshub-local-hack-day.devpost.com/" className="text-footer"><SiDevpost className="mx-2" target="_blank"/></a>
                     <a href="https://www.instagram.com/cshub_york/" className="text-footer"><BsInstagram className="mx-2" target="_blank"/></a>
 
                 </div>

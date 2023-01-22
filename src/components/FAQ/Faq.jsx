@@ -25,8 +25,7 @@ const Faq = () => {
           <div
             className={`accordion-content ${activeIndex === 0 ? 'open' : ''}`}
           >
-            The event will be held at The Bergeron Centre 125 & Eatery, located
-            at 11 Arboretum Ln, North York, ON M3J 2S5.
+            CSHub LHD will take place at The Bergeron Centre for Engineering Excellence at York University, located at 11 Arboretum Lane, North York, ON, M3J 2S5.
           </div>
           <div
             className={`accordion-header ${activeIndex === 1 ? 'active' : ''}`}
@@ -102,7 +101,7 @@ const Faq = () => {
             essentials as it's a 12-hour event. However, it's important to bring
             all the necessary equipment and tools to work on your project. This
             includes laptops, chargers, and any additional hardware that you may
-            require.
+            require. Food and drinks will be provided.  However, you are encouraged to bring a refillable water bottle.
           </div>
           <div
             className={`accordion-header ${activeIndex === 6 ? 'active' : ''}`}
@@ -114,7 +113,7 @@ const Faq = () => {
           <div
             className={`accordion-content ${activeIndex === 6 ? 'open' : ''}`}
           >
-            Sit back and start flexing those keyboard muscles and hack like a
+            Sit back and start flexing those keyboard muscles and prepare to hack like a
             pro!.
           </div>
           <div
@@ -127,7 +126,7 @@ const Faq = () => {
           <div
             className={`accordion-content ${activeIndex === 8 ? 'open' : ''}`}
           >
-            Email us at cshub.localhackday@gmail.com
+            Please email us at cshub.localhack@gmail.com
           </div>
         </div>
       </div>

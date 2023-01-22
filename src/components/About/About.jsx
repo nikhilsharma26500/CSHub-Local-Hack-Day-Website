@@ -11,7 +11,7 @@ const About = () => {
             <img src={cshub} />
           </div>
           <div className='col-md right'>
-            <div className='head row-md-4'>About us.</div>
+            <div className='head row-md-4'>About us</div>
             <div className='content row-md'>
               At Computing Students Hub, we empower undergraduate students at
               Lassonde by providing representation, resources, and opportunities

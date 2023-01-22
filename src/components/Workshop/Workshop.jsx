@@ -8,12 +8,10 @@ import ning from "../../Assets/ning.jpg";
 import khadija from "../../Assets/khadija.jpg";
 import mahdeen from "../../Assets/mahdeen.jpg";
 import hasti from "../../Assets/hasti.jpg";
-import stockm from "../../Assets/stockm.jpg";
 import minh from "../../Assets/minh.jfif";
 import steeve from "../../Assets/steeve.jpg";
 import aradhya from "../../Assets/aradhya.jfif";
 import nikhil from "../../Assets/nikhil.jpg";
-import noora from "../../Assets/noora.jpg";
 import arianne from "../../Assets/arianne.JPG";
 import sourish from "../../Assets/sourish.jpg";
 
@@ -25,21 +23,6 @@ const Workshop = () => {
       <div className="teamtitle"><p>Meet the Team</p></div>
       <div className="main-body">
       <div className="row">
-      <div className="col-md-3">
-          <div className="team-member">
-            <img src={bailey} alt="Profile 1" className="img-fluid" />
-            <h3>Bailey Luu</h3>
-            <p>Co-Chair</p>
-            <div className="social-icons">
-              <a href="https://www.linkedin.com/in/baileyluu/">
-                <FaLinkedinIn />
-              </a>
-              <a href="mailto:name1@email.com">
-                <MdEmail />
-              </a>
-            </div>
-          </div>
-        </div>
         <div className="col-md-3">
           <div className="team-member">
             <img src={minh} alt="Profile 2" className="img-fluid" />
@@ -50,6 +33,21 @@ const Workshop = () => {
                 <FaLinkedinIn />
               </a>
               <a href="mailto:name2@email.com">
+                <MdEmail />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="team-member">
+            <img src={bailey} alt="Profile 1" className="img-fluid" />
+            <h3>Bailey Luu</h3>
+            <p>Co-chair</p>
+            <div className="social-icons">
+              <a href="https://www.linkedin.com/in/baileyluu/">
+                <FaLinkedinIn />
+              </a>
+              <a href="mailto:name1@email.com">
                 <MdEmail />
               </a>
             </div>
@@ -90,11 +88,11 @@ const Workshop = () => {
         <div className="col-md-3">
           <div className="team-member">
             <img src={steeve} alt="Profile 1" className="img-fluid" />
-            <h3>Steeve Johan</h3>
+            <h3>Steeve-Johan</h3>
             <p>Logistics</p>
             <p>Hackathon Experience</p>
             <div className="social-icons">
-              <a href="https://www.linkedin.com/in/baileyluu/">
+              <a href="https://www.linkedin.com/in/johanotoka/">
                 <FaLinkedinIn />
               </a>
               <a href="mailto:jotok15@my.yorku.ca">
@@ -151,14 +149,14 @@ const Workshop = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-3">
+        <div className="col-md">
           <div className="team-member">
             <img src={hasti} alt="Profile 1" className="img-fluid" />
             <h3>Hasti Ghaneshirazi</h3>
             <p>Technology</p>
             <p>Social Media Community Manager</p>
             <div className="social-icons">
-              <a href="https://www.linkedin.com/in/baileyluu/">
+              <a href="https://www.linkedin.com/in/hasti-ghaneshirazi/">
                 <FaLinkedinIn />
               </a>
               <a href="mailto:name1@email.com">
@@ -167,30 +165,30 @@ const Workshop = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-3">
+        <div className="col-md">
           <div className="team-member">
             <img src={nikhil} alt="Profile 1" className="img-fluid" />
             <h3>Nikhil Sharma</h3>
             <p>Technology</p>
             <p>Web Developer</p>
             <div className="social-icons">
-              <a href="https://www.linkedin.com/in/baileyluu/">
+              <a href="https://www.linkedin.com/in/nikhilsharma26500/">
                 <FaLinkedinIn />
               </a>
-              <a href="mailto:name1@email.com">
+              <a href="https://github.com/nikhilsharma26500">
                 <FaGithub/>
               </a>
             </div>
           </div>
         </div>
-        <div className="col-md-3">
+        <div className="col-md">
           <div className="team-member">
             <img src={aradhya} alt="Profile 1" className="img-fluid" />
             <h3>Aradhya Singh</h3>
             <p>Technology</p>
             <p>Web Developer</p>
             <div className="social-icons">
-              <a href="https://www.linkedin.com/in/baileyluu/">
+              <a href="https://www.linkedin.com/in/aradhyas8/">
                 <FaLinkedinIn />
               </a>
               <a href="https://github.com/aradhyas8">

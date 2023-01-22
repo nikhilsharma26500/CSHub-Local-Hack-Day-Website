@@ -16,38 +16,47 @@ const Sponsors = () => {
         <div className="sponsors-title"><p>Sponsors & Partners</p></div>
         <div className="row">
           <div className="partners col-sm">
-            <div className="head">Partners</div>
+            <div className="head">Sponsors</div>
             <div className="col">
-              <img src={ovra} />
+            <a href="https://lassonde.yorku.ca/">
+              <img src={les} style={{zIndex:"1"}}/>
+              </a>
             </div>
             <div className="col">
-              <img src={yfs} />
+            <a href="https://github.com">
+              <img src={mlh} />
+              </a>
             </div>
           </div>
-
-          <div className="partners col-sm">
+                    <div className="partners col-sm">
             <div className="head">In-Kind</div>
             <div className="col">
+            <a href="https://github.com">
               <img src={github} />
+              </a>
             </div>
             <div className="col">
+            <a href="https://www.twilio.com/">
               <img src={twilio} />
+              </a>
             </div>
             <div className="col">
+            <a href="https://stackoverflow.com/">
               <img src={stack} />
+              </a>
             </div>
             <div className="col">
+            <a href="https://www.radixdlt.com/">
               <img src={radix} />
+              </a>
             </div>
           </div>
-
           <div className="partners col-sm">
-            <div className="head">Regular Sponsors</div>
+            <div className="head">Partners</div>
             <div className="col">
-              <img src={les} style={{zIndex:"1"}}/>
-            </div>
-            <div className="col">
-              <img src={mlh} />
+            <a href="https://ovra.io/">
+              <img src={ovra} />
+              </a>
             </div>
           </div>
         </div>

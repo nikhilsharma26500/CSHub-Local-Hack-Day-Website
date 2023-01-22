@@ -90,7 +90,7 @@ const Hero = () => {
             </div>
             <div className="col-md-12 columnn mob-counter">
               <ul>
-                <li>
+                <li >
                   <span id="days">{countdown.days}</span>days
                 </li>
                 <li>
